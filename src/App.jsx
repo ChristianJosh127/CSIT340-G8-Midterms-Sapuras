@@ -1,6 +1,7 @@
 import SideBar from "./components/SideBar";
 import Docs from "./components/Docs";
 import Guide from "./components/Guide";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <SideBar author="CHRISTIAN JOSH E. SAPURAS" />
       <Docs />
       <Guide />
+      <Feedback />
     </div>
   );
 }
